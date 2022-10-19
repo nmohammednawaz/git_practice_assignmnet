@@ -9,7 +9,7 @@ for(let i = 0; i < string.length; i++){
     isPalindrome = true;
   }
 }
-if(isPalindrome){
+if(isPalindrome==true){
   console.log(string,"is palindrome");
 }else{
   console.log(string,"is not palindrome");
