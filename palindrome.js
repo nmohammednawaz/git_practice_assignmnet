@@ -5,7 +5,7 @@ let isPalindrome = false;
 
 // Ieterate loop from 0 to length of the string
 for(let i = 0; i < string.length; i++){
-  if(string[i] == string[string.length-i]){
+  if(string[i] == string[string.length-i-1]){
     isPalindrome = true;
   }
 }
