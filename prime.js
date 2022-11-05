@@ -1,12 +1,12 @@
 // Program to check whether a number is Prime or not
 
 let num = 4;
-let isPrime = 0;
+let isPrime = true;
 
-// Ieterate loop from 1 to number
-for(let i = 2; i < num/2; i++){
+// Ieterate loop from 2 to number
+for(let i = 2; i <= num/2; i++){
   if(num % i == 0){
-    isPrime = 2;
+    isPrime = false;
   }
 }
 if(isPrime){
